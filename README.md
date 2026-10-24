@@ -23,7 +23,7 @@
 
 A fully typed React application for searching movies by keyword. It sends HTTP requests to [The Movie Database (TMDB)](https://www.themoviedb.org/) API, renders a responsive grid of posters and opens a modal window with details for the selected movie.
 
-**🔗 Live demo:** [03-react-movies-two-sooty.vercel.app](https://03-react-movies-two-sooty.vercel.app/)
+**🔗 Live demo:** [03-react-movies-two-sooty.vercel.app](https://03-react-movies-two-sooty.vercel.app/)<br>
 **📦 Repository:** [github.com/mrkorzun/03-react-movies](https://github.com/mrkorzun/03-react-movies)
 
 <p align="center">
@@ -65,6 +65,10 @@ A fully typed React application for searching movies by keyword. It sends HTTP r
 | Deployment    | Vercel                                                                 |
 
 ## Architecture
+
+<p align="center">
+  <img src="assets/components.png" alt="Component structure: SearchBar, MovieGrid, Loader, ErrorMessage and MovieModal inside App" width="800">
+</p>
 
 The app follows a **"smart container, presentational children"** pattern: all state and side effects live in `App`, child components receive data and callbacks through typed props. HTTP logic is isolated in a service module.
 
