@@ -26,7 +26,9 @@ A fully typed React application for searching movies by keyword. It sends HTTP r
 **🔗 Live demo:** [03-react-movies-two-sooty.vercel.app](https://03-react-movies-two-sooty.vercel.app/)
 **📦 Repository:** [github.com/mrkorzun/03-react-movies](https://github.com/mrkorzun/03-react-movies)
 
-![Demo: search, movie grid, modal window and notifications](assets/demo.gif)
+<p align="center">
+  <img src="assets/demo.gif" alt="Demo: search, movie grid, modal window and notifications" width="800">
+</p>
 
 ---
 
