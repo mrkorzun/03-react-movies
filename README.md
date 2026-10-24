@@ -23,6 +23,7 @@
 
 A fully typed React application for searching movies by keyword. It sends HTTP requests to [The Movie Database (TMDB)](https://www.themoviedb.org/) API, renders a responsive grid of posters and opens a modal window with details for the selected movie.
 
+**🔗 Live demo:** [03-react-movies-two-sooty.vercel.app](https://03-react-movies-two-sooty.vercel.app/)
 **📦 Repository:** [github.com/mrkorzun/03-react-movies](https://github.com/mrkorzun/03-react-movies)
 
 ![Demo: search, movie grid, modal window and notifications](assets/demo.gif)
