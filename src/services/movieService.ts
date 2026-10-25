@@ -3,7 +3,7 @@ import type { Movie } from "../types/movie";
 
 interface MoviesResponse {
   page: number;
-  result: Movie[];
+  results: Movie[];
   total_pages: number;
   total_results: number;
 }
